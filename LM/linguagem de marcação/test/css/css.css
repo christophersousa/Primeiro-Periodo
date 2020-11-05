@@ -1,0 +1,20 @@
+main{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "head head" "aside coluna";
+}
+
+li:nth-child(1){
+    grid-area: head;
+}
+
+li:nth-child(2){
+    grid-area: aside;
+}
+
+li:nth-child(3){
+    grid-area: coluna;
+}

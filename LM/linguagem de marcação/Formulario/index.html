@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form class="formulario" action="">
+            <h2 class="address">Address</h2>
+            <div class="cep">
+                <label for="cep">CEP</label>
+                <br>
+                <input type="text" name="cep" id="cep" placeholder="CEP..." required>
+            </div>
+            <div class="city">
+                <label for="city">Cidade</label>
+                <br>
+                <input type="text" name="cidade" id="city" placeholder="Cidade..." required>
+            </div>
+            <div class="estado">
+                <label for="estado">Estado</label>
+                <br>
+                <select name="estado" id="estado">
+                    <option value=""></option>
+                    <option value="paraiba">PB</option>
+                    <option value="rio de janeiro">RJ</option>
+                    <option value="bahia">BA</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+            <div class="bairro">
+                <label for="bairro">Bairro</label>
+                <br>
+                <input type="text" name="bairro" id="bairro" placeholder="Bairro..." required>
+            </div>
+            <div class="rua">
+                <label for="rua">Rua</label>
+                <br>
+                <input type="text" name="rua" id="rua" placeholder="Rua..." required>
+            </div>
+            <div class="number">
+                <label for="number">Número</label>
+                <br>
+                <input type="number" name="numero" id="number" placeholder="Número..." required>
+            </div>
+            <div class="inf">
+                <label for="inf">Informe uma refência</label>
+                <br>
+                <textarea name="referencia" id="inf" cols="30" rows="8"></textarea>
+            </div>
+            <div class="TR">
+                <label for="residencia">Tipo da residência</label>
+                <br>
+                <select name="residencia" id="residencia" required>
+                    <option value=""></option>
+                    <option value="casa">Casa</option>
+                    <option value="ap">Apartamento</option>
+                </select>
+            </div>
+            <div class="login">
+                <label for="login">Login</label>
+                <br>
+                <input type="email" name="email" id="login" placeholder="Ex:test@email.com" required>
+            </div>
+            <div class="senha">
+                <label for="senha">Senha</label>
+                <br>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <br>
+            <input class='enviar' type="submit" value="Enviar">
+            <input class='limpar' type='reset' value="Limpar">
+        </form>
+    </main>
+</body>
+</html>

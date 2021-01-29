@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula de Animação em CSS</title>
+    <style>
+        div{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+
+            animation: percurso 8s infinite; /* adicionar - repetição infinita */
+        }
+
+        @keyframes percurso{
+            0%, to{
+                top: 0;
+                left: 0;
+            }
+
+            25%{
+                transform: translateY(200px);
+                /* adicionar - translação de 200px na vertical */
+            }
+
+            50%{
+                transform: translate(200px, 200px);
+                /* adicionar - translação 200px na horizontal e na vertical */
+            }
+
+            75%{
+                transform: translateX(200px);
+                /* adicionar - translação 200px na horizontal */
+            }
+
+
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

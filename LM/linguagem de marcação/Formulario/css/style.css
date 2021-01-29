@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #80deea;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    width: 700px;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.formulario{
+    display: grid;
+    grid-template-areas: 
+    'address address address address'
+    "cep cidade estado bairro"
+    "rua rua rua number "
+    "inf inf type type"
+    "login login senha senha"
+    "enviar enviar limpar limpar";
+    
+    width: 600px;
+    grid-gap: 1rem;
+    padding: 15px;
+}
+
+.formulario .address{
+    grid-area: address;
+}
+
+.formulario .cep{
+    grid-area: cep;
+}
+
+.formulario .cidade{
+    grid-area: cidade;
+}
+
+.formulario.estado{
+    grid-area: estado;
+}
+
+.formulario .bairro{
+    grid-area: bairro;
+}
+
+.formulario .rua{
+    grid-area: rua;
+}
+
+.formulario .rua input{
+    width: 400px;
+}
+
+.formulario .number{
+    grid-area: number;
+}
+
+.formulario .inf{
+    grid-area: inf;
+}
+
+.formulario .TR{
+    grid-area: type;
+}
+
+.formulario .TR select{
+    width: 200px;
+}
+
+.formulario .login{
+    grid-area: login;
+}
+
+.formulario .senha{
+    grid-area: senha;
+}
+
+.formulario .senha input, .formulario .login input{
+    width: 250px;
+}
+
+.formulario .enviar{
+    grid-area: enviar;
+}
+
+.formulario .limpar{
+    grid-area: limpar;
+}

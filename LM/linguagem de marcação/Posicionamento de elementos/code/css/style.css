@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Lato-regular, sans-serif;
+  src: url(../font/Lato-Regular.ttf);
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 135%;
+  margin: 0px;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+/*head*/
+
+div.container{
+  float: left;
+  height: 120vw;
+  width: 20%;
+  padding: 50px 40px;
+  background-color: #333;
+  color: #9b9b9b;
+  margin-right: 4rem;
+}
+
+div .container-head{
+  display: flex;
+  flex-direction: column;
+}
+
+div .container-head a{
+  color: white;
+}
+
+div .container-head p{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+/*Navegação*/
+
+nav.navegation{
+  display: flex;
+  font-size: 15px;
+  width: 150px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+nav.navegation a.nav-home{
+  color: white;
+}
+
+nav.navegation a{
+  color: #9b9b9b9b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+nav.navegation a:hover{
+  color: white;
+}
+
+
+div .navegation ul{
+  padding: 0;
+  list-style: none;
+}
+
+div .navegation li{
+  margin-bottom: 15px;
+}
+
+/*Social*/
+
+div .social ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+div .social li{
+  margin: 5px;
+}
+
+.social .fab, .fas, .far{
+  color: #9b9b9b9b;
+  font-size: 19px;
+}
+
+.social .fab:hover, .fas:hover, .far:hover{
+  color: white;
+  font-size: 24px;
+}
+
+/*body*/
+
+main{
+  padding: 35px 0px;
+  width: 95%;
+}
+
+div.service{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  padding-bottom: 50px;
+  margin: 1rem 2rem;
+  border-bottom: 1px solid #969696;
+}
+
+main.container-main h2:hover{
+  color: #9b9b9b;
+}
+
+main.container-main span{
+  margin: 1rem 0;
+  color: #969696;
+  font-size: 13px;
+}
+
+main.container-main a.cont{
+  font-size: 14px;
+  border: 1px solid #969696;
+  border-radius: 10px;
+  padding: 5px 8px;
+  width: 125px;
+}
+
+main.container-main a.cont:hover{
+  border: 1px solid black;
+  font-weight: 600;
+  width: 135px;
+}
+
+div.buttom{
+  text-align: center;
+  padding: 50px;
+}
+
+div.buttom a{
+ 
+  border: 1px solid #969696;
+  border-radius: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+div.buttom a:hover{
+  border: 1px solid black;
+  font-weight: 600;
+}

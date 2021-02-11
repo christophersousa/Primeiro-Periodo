@@ -1,0 +1,52 @@
+/*Tabela de climática*/
+
+table{
+    border-collapse: separate;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: 20%;
+    background-color: rgb(240,248,255)
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: .3rem .5rem ;
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(168, 218, 213);
+}
+
+th:hover,tr:hover{
+    background-color: rgb(168, 218, 213);
+    color: white
+    
+}
+
+ img{
+    width: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+}
+
+img{
+    color: white
+}
+.icone-nublado {
+    background-image: url("../img/nublado.svg") ;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+}
+
+.icone-nublado{
+    fill: white;
+}
+
